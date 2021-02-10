@@ -30,6 +30,10 @@ class LibraryController extends AbstractController{
                     'id' => 2,
                     'title'=> 'Soledad en forma de viento'
                 ],
+                [
+                    'id' => 2,
+                    'title'=> $title
+                ],
             ]
         ]);
         return $response;
